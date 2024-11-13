@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px;
+}
+
+#gantt-chart {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.process {
+    padding: 10px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    margin: 2px;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
